@@ -24,7 +24,7 @@ function Share() {
             <div className="flex items-center space-x-2">
               <img src={key} alt="Key" />
               <h4 className="text-black font-medium">Restricted</h4>
-              <img src={arrow} alt="Arrow Down" />
+              <img className="h-5" src={arrow} alt="Arrow Down" />
             </div>
             <p className="text-base">Only people you add can open this link</p>
           </div>
